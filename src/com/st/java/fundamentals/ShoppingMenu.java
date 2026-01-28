@@ -65,9 +65,10 @@ public class ShoppingMenu {
                     quantity = sc.nextInt();
 
                     if (quantity > stockAvailable) {
-                        System.out.println(
-                                "Sorry for the inconvenience, You can only buy " + stockAvailable + " quantity right now.");
-                        break;
+                        System.out.println("Sorry for the inconvenience, You can only buy " + stockAvailable + " quantity right now.");
+                        System.out.println("enter the quantity less than " + stockAvailable);
+                        quantity=sc.nextInt();
+                        //break;
                     }
 
                     stockAvailable = stockAvailable - quantity;
