@@ -1,0 +1,24 @@
+package com.st.java.codingquestions.level3;
+
+import java.util.Scanner;
+
+public class FibonaccilSeries {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number : ");
+        int N = sc.nextInt();
+        int first = 0;
+        int second = 1;
+        System.out.println(first);
+        System.out.println(second);
+
+        for (int i = 3; i <= N; i++) {
+            int next = first + second;
+            System.out.println(next);
+
+            first = second;
+            second = next;
+        }
+        sc.close();
+    }
+}
