@@ -2,7 +2,7 @@ package com.st.java.codingquestions;
 
 import java.util.Scanner;
 
-public class pattren4 {
+public class Pattern4 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter n: ");
