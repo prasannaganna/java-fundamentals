@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class MembershipPurchase {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float productPrice,totalsaveAmount;
+        float productPrice,totalsaveAmount, finalPrice,finalQuantityPrice;
         float centalTax = 2.5f;
         float stateTax = 2.5f;
-        float finalPrice, finalQuantityPrice, discountPercentage;
+        float c, discountPercentage;
         int quantity, shippingCharges;
         char memberShip;
         System.out.println("enter the productPrice : ");

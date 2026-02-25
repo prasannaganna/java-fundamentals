@@ -6,7 +6,7 @@ public class MembershipPurchaseSwitch {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float productPrice,totalsaveAmount;
-        float centalTax = 2.5f;
+       float centalTax = 2.5f;
         float stateTax = 2.5f;
         float finalPrice, finalQuantityPrice, discountPercentage;
         int quantity, shippingCharges;
